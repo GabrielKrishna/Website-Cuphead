@@ -1,5 +1,9 @@
 body {
   font-family: "Poppins";
+  background: rgb(36,0,0);
+  background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(36,0,0,1) 100%);
+  width: 100vw;
+  height: 100vh;
 }
 
 .cabecalho {
@@ -68,33 +72,6 @@ body {
 
 .container .botao-trailer:hover {
   transform: scale(1.1);
-}
-
-.fundo-video {
-  background-color: red;
-  position: absolute;
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.fundo-video .video {
-  height: 100vh;
-}
-
-.fundo-video::after {
-  content: "";
-  background-color: #d5011d;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 .modal {
